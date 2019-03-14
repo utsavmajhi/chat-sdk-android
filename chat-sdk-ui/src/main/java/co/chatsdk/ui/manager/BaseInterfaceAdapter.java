@@ -306,7 +306,7 @@ public class BaseInterfaceAdapter implements InterfaceAdapter {
     }
 
     public void startSplashScreenActivity (Context context) {
-        startActivity(context, getLoginActivity());
+        startActivity(context, getSplashScreenActivity());
     }
 
     public void startEditProfileActivity(Context context, String userEntityID){
